@@ -1,5 +1,5 @@
 buildscript {
-    ext.projectVersion = '0.0.7'
+    ext.projectVersion = '0.0.8'
     ext.projectName = 'kotlin-redux-thunk'
     ext.projectGroup = 'com.github.etalisoft'
     ext.projectDesc = 'A Redux thunk implementation for Kotlin'
