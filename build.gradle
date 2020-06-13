@@ -1,11 +1,11 @@
 buildscript {
-    ext.projectVersion = '0.0.8'
+    ext.projectVersion = '0.0.9'
     ext.projectName = 'kotlin-redux-thunk'
     ext.projectGroup = 'com.github.etalisoft'
     ext.projectDesc = 'A Redux thunk implementation for Kotlin'
     ext.projectHost = 'github'
     ext.projectUrl = 'https://github.com/etalisoft/kotlin-redux-thunk'
-    ext.projectOrg = 'etalisoft-gh'
+    ext.projectOrg = 'etalisoft-github'
     ext.projectLicense = 'MIT'
     ext.projectLicenseUrl = 'http://opensource.org/licenses/MIT'
     ext.projectDevNick = 'etalisoft'
@@ -37,7 +37,7 @@ apply plugin: 'com.jfrog.bintray'
 repositories {
     mavenCentral()
     maven {
-        url  "https://etalisoft-gh.bintray.com/maven"
+        url  "https://etalisoft-github.bintray.com/maven"
     }
 }
 
